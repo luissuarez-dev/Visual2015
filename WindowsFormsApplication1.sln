@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{FABE2D04-8C63-4A6D-8B89-EBA84DE46B3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication2", "WindowsFormsApplication2\WindowsFormsApplication2.csproj", "{62F88CDE-3F94-4038-89EA-087E1F865238}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FABE2D04-8C63-4A6D-8B89-EBA84DE46B3F} = {FABE2D04-8C63-4A6D-8B89-EBA84DE46B3F}
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WindowsFormsApplication1Setup", "WindowsFormsApplication1Setup\WindowsFormsApplication1Setup.vdproj", "{C7306B3E-B27F-445E-A29C-99E336879014}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WindowsFormsApplication2Setup", "WindowsFormsApplication2Setup\WindowsFormsApplication2Setup.vdproj", "{D8A78300-4A89-4CCE-9714-92C671D4EB64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FABE2D04-8C63-4A6D-8B89-EBA84DE46B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABE2D04-8C63-4A6D-8B89-EBA84DE46B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABE2D04-8C63-4A6D-8B89-EBA84DE46B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABE2D04-8C63-4A6D-8B89-EBA84DE46B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62F88CDE-3F94-4038-89EA-087E1F865238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F88CDE-3F94-4038-89EA-087E1F865238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F88CDE-3F94-4038-89EA-087E1F865238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F88CDE-3F94-4038-89EA-087E1F865238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7306B3E-B27F-445E-A29C-99E336879014}.Debug|Any CPU.ActiveCfg = Debug
+		{C7306B3E-B27F-445E-A29C-99E336879014}.Release|Any CPU.ActiveCfg = Release
+		{D8A78300-4A89-4CCE-9714-92C671D4EB64}.Debug|Any CPU.ActiveCfg = Debug
+		{D8A78300-4A89-4CCE-9714-92C671D4EB64}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
